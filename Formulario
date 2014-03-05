@@ -1,0 +1,184 @@
+<!DOCRYPE html>
+<html>
+<body>
+<head>
+
+<center>
+<body background="fondo.png">
+</center>
+
+
+<form>
+ <fieldset>
+  Name: <input type="text"><br>
+  Apellido Paterno: <input type="text"><br>
+Apellido Materno: <input type="text"><br>
+ </fieldset>
+</form>
+<br/>
+<br/>
+
+<label> Fecha de Nacimiento</label> <br/>
+
+<form>
+<label> Dia </label> <br/>
+<select name"Dia">
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">04</option>
+<option value="04">05</option>
+<option value="02">06</option>
+<option value="03">07</option>
+<option value="01">08</option>
+<option value="02">09</option>
+<option value="03">10</option>
+<option value="01">11</option>
+<option value="02">12</option>
+<option value="03">13</option>
+<option value="03">14</option>
+<option value="01">15</option>
+<option value="02">16</option>
+<option value="03">17</option>
+<option value="01">18</option>
+<option value="02">19</option>
+<option value="03">20</option>
+<option value="03">21</option>
+<option value="03">22</option>
+<option value="03">23</option>
+<option value="03">24</option>
+<option value="03">25</option>
+<option value="03">26</option>
+<option value="03">27</option>
+<option value="03">28</option>
+<option value="03">29</option>
+<option value="03">30</option>
+<option value="31" select="selected">31</option>
+</select>
+<br/>
+
+<form>
+<label> mes </label> <br/>
+<select name"mes">
+<option value="01">01</option>
+<option value="01">02</option>
+<option value="02">03</option>
+<option value="03">04</option>
+<option value="04">05</option>
+<option value="02">06</option>
+<option value="03">07</option>
+<option value="01">08</option>
+<option value="02">09</option>
+<option value="03">10</option>
+<option value="01">11</option>
+<option value="12" select="selected"></option>
+</select>
+<br/>
+
+
+<form>
+<label> Año </label> <br/>
+<select name"Año">
+<option value="01">2014</option>
+<option value="01">2013</option>
+<option value="02">2012</option>
+<option value="01">2011</option>
+<option value="01">2010</option>
+<option value="02">2009</option>
+<option value="01">2008</option>
+<option value="01">2007</option>
+<option value="02">2006</option>
+<option value="01">2005</option>
+<option value="01">2004</option>
+<option value="02">2003</option>
+<option value="02">2002</option>
+<option value="02">2001</option>
+
+<option value="12" select="selected">2000</option>
+</select>
+</form>
+<br/>
+
+<label> Sexo</label> <br/>
+
+
+<form>
+<input type="radio" name="Sexo" value="1"
+id="materia1">
+<label for="materia1">Masculino</label><br/>
+<input type="radio" name="sexo" value="2" 
+id="materia2">
+<label for="materia2">Femenino</label><br/> 
+</form>
+<br/>
+<Form>
+<menu type="text">
+<menu label="File">
+Foto: <input type="text"><br>
+<button type="button" onclick="file_new()">Examinar</button>
+</menu>
+</li>
+</fieldset>
+<br/>
+
+<Form>
+
+<fieldset>
+<form action="autenticar.php" method="GET">
+<label for="usuario">Codigo</label> <br/>
+<input type="text" size="10" maxlenyth="10">
+<id="usuario" name="usuario"><br/>
+
+<label for="password">Password</label> <br/>
+<input type="password" size="10" maxlenyth="10">
+<id="password" name="password"><br/>
+</fieldset>
+</form>
+<br/>
+
+
+<form>
+ <fieldset>
+  Domicilio: <input type="text"><br>
+  Colonia: <input type="text"><br>
+  Telefono: <input type="text"><br>
+ </fieldset>
+</form>
+<br/>
+
+<form>
+<fieldset>
+<label> Intereses de </label> <br/>
+
+<input type="checkbox" name="Intereses" value="1"
+id="interes1">
+
+<label for="interes1">Deportes</label><br/>
+<input type="checkbox" name="materia" value="2" 
+id="interes2">
+
+<label for="interes2">Ciencia</label><br/>
+<input type="checkbox" name="materia" value="3" 
+id="interes3">
+<label for="interes3">Educacion</label><br/>
+
+<input type="checkbox" name="materia" value="3" 
+id="interes4">
+<label for="interes4">Musica</label><br/>
+
+<input type="checkbox" name="materia" value="3" 
+id="interes5">
+<label for="interes5">Otros</label><br/>
+
+</fieldset>
+</form>
+
+<form>
+<menu type="toolbar">
+<menu label="File">
+<button type="button" onclick="file_new()">Cancelar
+"alert('hola')"><button>
+<button type="button" onclick="file_save()">Guardar</button>
+</menu>
+</form>
+
+
